@@ -69,7 +69,7 @@ def total_area(shapes: list) -> float:
     Return the sum of area() over every shape in `shapes`
     (any mix of the classes above). An empty list gives 0.0.
     """
-    area=0
+    area=0.0
     for shape in shapes:
         area+=shape.area()
     return area
